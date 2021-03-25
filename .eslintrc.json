@@ -51,8 +51,6 @@
     "@typescript-eslint/explicit-module-boundary-types": ["warn", {
       "allowArgumentsExplicitlyTypedAsAny": true
     }],
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"],
     "no-underscore-dangle": "off",
     "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
@@ -76,15 +74,6 @@
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
-    ],
-    "import/no-unresolved": "error"
-  },
-  "settings": {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    },
-    "import/resolver": {
-      "typescript": {}
-    }
+    ]
   }
 }
